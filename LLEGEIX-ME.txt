@@ -1,0 +1,19 @@
+REWOODEX - Com publicar la web
+==============================
+Carpeta: index.html (la web), logo.jpg, robots.txt, sitemap.xml
+
+1) Publicar (tria una opcio)
+ - Netlify: entra a app.netlify.com/drop i arrossega-hi aquesta carpeta.
+ - GitHub Pages / Cloudflare Pages: puja la carpeta a un repositori i activa Pages.
+ - Hosting amb FTP / cPanel: puja tot el contingut a la carpeta public_html.
+ Es una web estatica: no necessita servidor ni base de dades.
+
+2) Abans de publicar
+ - Substitueix https://www.rewoodex.cat/ pel teu domini real a index.html, robots.txt i sitemap.xml.
+ - Revisa els textos de prova: 186 kg desviats, testimonis, perfils @rewoodex, correu hola@rewoodex.cat.
+ - Escriu els textos reals d'Avis legal, Privacitat i Cookies (ara hi ha un text provisional).
+
+3) Pendent per vendre de veritat
+ - Pagament: el boto "Finalitzar la compra" es una demo. Connecta Stripe Payment Links, PayPal o Shopify/WooCommerce.
+ - Formularis (Contacte i Pimes): ara nomes mostren un missatge de gracies. Connecta Formspree, Netlify Forms o similar.
+ - Les fotos que puja el client es processen al navegador i no s'envien enlloc; cal un servei per rebre-les amb la comanda.
